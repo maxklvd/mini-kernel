@@ -43,6 +43,6 @@ goto :EOF
 
 :no_qemu:
 echo.
-echo ERROR: QEMU not found. Please check the path to qemu-system-x86_64w.exe in QEMU_PATH
+echo ERROR: QEMU not found. Please check the path to qemu-system-x86_64w.exe in QEMU_PATH (%~nx0)
 echo.
 pause
