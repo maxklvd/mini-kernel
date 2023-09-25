@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mini-kernel", "build\mini-kernel.vcxproj", "{58AE4D53-27CB-4A64-AA69-CBD87DD0DFB2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35C08D81-7D8F-492D-BD4D-53F4FD8D15E3} = {35C08D81-7D8F-492D-BD4D-53F4FD8D15E3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gnu-efi", "build\gnu-efi.vcxproj", "{35C08D81-7D8F-492D-BD4D-53F4FD8D15E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58AE4D53-27CB-4A64-AA69-CBD87DD0DFB2}.Debug|x64.ActiveCfg = Debug|x64
+		{58AE4D53-27CB-4A64-AA69-CBD87DD0DFB2}.Debug|x64.Build.0 = Debug|x64
+		{58AE4D53-27CB-4A64-AA69-CBD87DD0DFB2}.Release|x64.ActiveCfg = Release|x64
+		{58AE4D53-27CB-4A64-AA69-CBD87DD0DFB2}.Release|x64.Build.0 = Release|x64
+		{35C08D81-7D8F-492D-BD4D-53F4FD8D15E3}.Debug|x64.ActiveCfg = Debug|x64
+		{35C08D81-7D8F-492D-BD4D-53F4FD8D15E3}.Debug|x64.Build.0 = Debug|x64
+		{35C08D81-7D8F-492D-BD4D-53F4FD8D15E3}.Release|x64.ActiveCfg = Release|x64
+		{35C08D81-7D8F-492D-BD4D-53F4FD8D15E3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B4435C0-9EEF-4096-91CC-EFEEA61FBC63}
+	EndGlobalSection
+EndGlobal
