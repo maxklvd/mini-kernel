@@ -1,0 +1,13 @@
+# ignore all . files and . folders
+.*
+
+# don't ignore .gitignore
+!/.gitignore
+
+*.obj
+*.efi
+*.pdb
+*.fd
+build/x64/
+hda-contents/
+uefi/
